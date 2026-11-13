@@ -1,0 +1,666 @@
+{
+  "revision": 1,
+  "materials": [
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "f60a7202-7db2-5dc9-b315-999dd7be3407",
+      "name": "Deep Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "f60a7202-7db2-5dc9-b315-999dd7be3407"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "65e74244-ac51-5df5-b360-07c41f887f0c",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 50,
+              "power": 100,
+              "passes": 4,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 0
+              },
+              "waveform": 15
+            },
+            {
+              "name": "Hatching 2",
+              "enabled": true,
+              "speed": 50,
+              "power": 100,
+              "passes": 4,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 45
+              },
+              "waveform": 15
+            },
+            {
+              "name": "Hatching 3",
+              "enabled": true,
+              "speed": 50,
+              "power": 100,
+              "passes": 4,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 90
+              },
+              "waveform": 15
+            },
+            {
+              "name": "Hatching 4",
+              "enabled": true,
+              "speed": 50,
+              "power": 100,
+              "passes": 4,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 135
+              },
+              "waveform": 15
+            },
+            {
+              "name": "Hatching Outline",
+              "enabled": true,
+              "speed": 50,
+              "power": 100,
+              "passes": 5,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "outline"
+              },
+              "waveform": 15
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "b1ca4945-aa2a-5056-9070-7536e2412581",
+      "name": "Polish",
+      "source": {
+        "_of": "epilog",
+        "id": "b1ca4945-aa2a-5056-9070-7536e2412581"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "65e74244-ac51-5df5-b360-07c41f887f0c",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 100,
+              "power": 30,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.001in",
+                "angle": 45
+              },
+              "waveform": 15
+            },
+            {
+              "name": "Hatching 2",
+              "enabled": true,
+              "speed": 100,
+              "power": 30,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.001in",
+                "angle": 315
+              },
+              "waveform": 15
+            },
+            {
+              "name": "Hatching 3",
+              "enabled": true,
+              "speed": 100,
+              "power": 30,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.001in",
+                "angle": 90
+              },
+              "waveform": 15
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "541ccfe1-f0a3-56b8-aa35-09a8052dd02e",
+      "name": "Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "541ccfe1-f0a3-56b8-aa35-09a8052dd02e"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "65e74244-ac51-5df5-b360-07c41f887f0c",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 30,
+              "power": 100,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 0
+              },
+              "waveform": 15
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "37442af8-7a86-5a8f-a3b4-a3418cfb3b39",
+      "name": "Polish",
+      "source": {
+        "_of": "epilog",
+        "id": "37442af8-7a86-5a8f-a3b4-a3418cfb3b39"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "3dd45060-7db6-55b0-af23-37bc3716a938",
+            "name": "Painted"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 100,
+              "power": 40,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.001in",
+                "angle": 45
+              },
+              "waveform": 12
+            },
+            {
+              "name": "Hatching 2",
+              "enabled": true,
+              "speed": 100,
+              "power": 35,
+              "passes": 1,
+              "frequency": 10,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.001in",
+                "angle": 90
+              },
+              "waveform": 7
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "75cde5c1-7e10-540a-9544-9901893b13f8",
+      "name": "Polish",
+      "source": {
+        "_of": "epilog",
+        "id": "75cde5c1-7e10-540a-9544-9901893b13f8"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "cb75ba4c-2cc7-5888-84df-3ec82df62c45",
+            "name": "Aluminum"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 100,
+              "power": 50,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 0
+              },
+              "waveform": 6
+            },
+            {
+              "name": "Hatching 2",
+              "enabled": true,
+              "speed": 70,
+              "power": 35,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 90
+              },
+              "waveform": 6
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "a8e89586-7938-5d45-b463-8309d4f84c76",
+      "name": "White Mark",
+      "source": {
+        "_of": "epilog",
+        "id": "a8e89586-7938-5d45-b463-8309d4f84c76"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "4c67f229-b7d1-54f6-bfda-85042ea6cce3",
+            "name": "Anodized Aluminum"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 100,
+              "power": 50,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.002in",
+                "angle": 45
+              },
+              "waveform": 10
+            },
+            {
+              "name": "Hatching 2",
+              "enabled": true,
+              "speed": 100,
+              "power": 50,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.002in",
+                "angle": 90
+              },
+              "waveform": 10
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "54a17ed8-4688-5c74-b2d0-dd040bb94b38",
+      "name": "Anneal",
+      "source": {
+        "_of": "epilog",
+        "id": "54a17ed8-4688-5c74-b2d0-dd040bb94b38"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "739b35dc-f5f8-5f59-b9c4-c9cf57eba211",
+            "name": "Stainless Steel / Titanium"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 60,
+              "power": 20,
+              "passes": 1,
+              "frequency": 10,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0001in",
+                "angle": 0
+              },
+              "waveform": 8
+            },
+            {
+              "name": "Hatching 2",
+              "enabled": true,
+              "speed": 60,
+              "power": 20,
+              "passes": 1,
+              "frequency": 10,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0001in",
+                "angle": 45
+              },
+              "waveform": 8
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "7a19324d-e64d-5233-a213-f760e55ab5fa",
+      "name": "Contrast Mark",
+      "source": {
+        "_of": "epilog",
+        "id": "7a19324d-e64d-5233-a213-f760e55ab5fa"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "dde3e12a-4e6e-52f2-ae93-0a930e45d652",
+            "name": "Powder Coated"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 50,
+              "power": 100,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 45
+              },
+              "waveform": 15
+            },
+            {
+              "name": "Hatching 2",
+              "enabled": true,
+              "speed": 50,
+              "power": 100,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0015in",
+                "angle": 90
+              },
+              "waveform": 15
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "2bbb8fc0-2afa-5d43-8378-7cbf5bb4d222",
+      "name": "White Mark on Black",
+      "source": {
+        "_of": "epilog",
+        "id": "2bbb8fc0-2afa-5d43-8378-7cbf5bb4d222"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "193c8d24-f514-5fba-9d3d-1f6c18bf28c8",
+            "name": "Acrylic"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 100,
+              "power": 50,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0025in",
+                "angle": 45
+              },
+              "waveform": 4
+            },
+            {
+              "name": "Hatching 2",
+              "enabled": true,
+              "speed": 100,
+              "power": 50,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.0025in",
+                "angle": 90
+              },
+              "waveform": 4
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "e897f458-c5e1-5d70-8edc-33d93c2a793a",
+      "name": "Contrast Mark on Black",
+      "source": {
+        "_of": "epilog",
+        "id": "e897f458-c5e1-5d70-8edc-33d93c2a793a"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "07160e2c-c5ef-581e-9400-0154a35545f9",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 100,
+              "power": 40,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.002in",
+                "angle": 45
+              },
+              "waveform": 5
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "c5aa79c9-1c67-559d-b741-2d59170aa7d0",
+      "name": "Contrast Mark on White",
+      "source": {
+        "_of": "epilog",
+        "id": "c5aa79c9-1c67-559d-b741-2d59170aa7d0"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "889bf252-44f3-5cde-a512-572730e15f16",
+            "name": "Polystyrene"
+          }
+        },
+        "process": {
+          "_of": "hatch_process",
+          "laser_type": "fiber",
+          "patterns": [
+            {
+              "name": "Hatching 1",
+              "enabled": true,
+              "speed": 100,
+              "power": 40,
+              "passes": 1,
+              "frequency": 1,
+              "pattern_type": {
+                "_of": "sweep",
+                "spacing": "0.003in",
+                "angle": 45
+              },
+              "waveform": 5
+            }
+          ],
+          "cycles": 1,
+          "disabled_fields": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1222 @@
+{
+  "revision": 1,
+  "materials": [
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "8159623f-baf3-5979-9808-e9bb914ac9f3",
+      "name": "Photo Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "8159623f-baf3-5979-9808-e9bb914ac9f3"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "193c8d24-f514-5fba-9d3d-1f6c18bf28c8",
+            "name": "Acrylic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 30,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "precision_sync": true,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "449be56d-f335-5f4d-9216-0a6b237274dd",
+      "name": "Clipart/Text 300 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "449be56d-f335-5f4d-9216-0a6b237274dd"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "193c8d24-f514-5fba-9d3d-1f6c18bf28c8",
+            "name": "Acrylic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 30,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "00669015-e97d-5a6d-809c-1b572e66a135",
+      "name": "Clipart/Text 500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "00669015-e97d-5a6d-809c-1b572e66a135"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "193c8d24-f514-5fba-9d3d-1f6c18bf28c8",
+            "name": "Acrylic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 20,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "09986781-5567-5c01-beb4-a9f82806a85d",
+      "name": "1/8\" (3mm) Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "09986781-5567-5c01-beb4-a9f82806a85d"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "193c8d24-f514-5fba-9d3d-1f6c18bf28c8",
+            "name": "Acrylic"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 25,
+          "power": 100,
+          "cycles": 1,
+          "thickness": "0.125in",
+          "frequency": 100,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "83b042cf-3068-553b-8ecf-74c490369ebb",
+      "name": "1/4\" (6mm) Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "83b042cf-3068-553b-8ecf-74c490369ebb"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "193c8d24-f514-5fba-9d3d-1f6c18bf28c8",
+            "name": "Acrylic"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 10,
+          "power": 100,
+          "cycles": 1,
+          "thickness": "0.25in",
+          "frequency": 100,
+          "offset": "-0.08in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "8bb80a61-e68e-572a-9cd9-33b747ec98db",
+      "name": "3/8\" (9.5mm) Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "8bb80a61-e68e-572a-9cd9-33b747ec98db"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "193c8d24-f514-5fba-9d3d-1f6c18bf28c8",
+            "name": "Acrylic"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 5,
+          "power": 100,
+          "cycles": 1,
+          "thickness": "0.375in",
+          "frequency": 100,
+          "offset": "-0.08in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "f2b2b410-9b19-5730-8397-3413decc935c",
+      "name": "300 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "f2b2b410-9b19-5730-8397-3413decc935c"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "b6e7df2f-e5aa-5932-8ed4-51085f9fe2ff",
+            "name": "Two-Layer Engravable"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 20,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "120d23d4-926e-50ea-b695-7b3a18c5f9ab",
+      "name": "500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "120d23d4-926e-50ea-b695-7b3a18c5f9ab"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "b6e7df2f-e5aa-5932-8ed4-51085f9fe2ff",
+            "name": "Two-Layer Engravable"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 15,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "95e5e3e2-ea64-573b-93cb-a9d4c6790125",
+      "name": "1/16\" (1.5mm) Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "95e5e3e2-ea64-573b-93cb-a9d4c6790125"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "b6e7df2f-e5aa-5932-8ed4-51085f9fe2ff",
+            "name": "Two-Layer Engravable"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 30,
+          "power": 60,
+          "cycles": 1,
+          "thickness": "0.063in",
+          "frequency": 100,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "441ddc8e-97bb-58bc-b6f6-f4acc80e3268",
+      "name": "300 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "441ddc8e-97bb-58bc-b6f6-f4acc80e3268"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "bd39062c-aa66-5836-9953-8fb407d5dd69",
+            "name": "AlumaMark"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 15,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "81c6e67b-e852-58c2-997c-f1039f14a258",
+      "name": "500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "81c6e67b-e852-58c2-997c-f1039f14a258"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "bd39062c-aa66-5836-9953-8fb407d5dd69",
+            "name": "AlumaMark"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 10,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "111b5273-fdde-5173-ae35-cbb3f2ead12a",
+      "name": "Photo/Clipart 300 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "111b5273-fdde-5173-ae35-cbb3f2ead12a"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "4c67f229-b7d1-54f6-bfda-85042ea6cce3",
+            "name": "Anodized Aluminum"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 25,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "precision_sync": true,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "8bbd003c-35cf-5be8-a76f-78f5b44d077a",
+      "name": "Photo/Clipart 500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "8bbd003c-35cf-5be8-a76f-78f5b44d077a"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "4c67f229-b7d1-54f6-bfda-85042ea6cce3",
+            "name": "Anodized Aluminum"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 20,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "precision_sync": true,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "a398856f-ac66-523a-8ba0-335589fc3d7e",
+      "name": "Text Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "a398856f-ac66-523a-8ba0-335589fc3d7e"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "4c67f229-b7d1-54f6-bfda-85042ea6cce3",
+            "name": "Anodized Aluminum"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 20,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "1ef0ec4f-c1bc-5663-a9f5-4147c5850e65",
+      "name": "300 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "1ef0ec4f-c1bc-5663-a9f5-4147c5850e65"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "0b24dd58-9af3-5dd5-8bba-2c6451fa7c10",
+            "name": "Painted Brass"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 10,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "89b25f02-e31c-5aee-b280-f304d07a60b6",
+      "name": "500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "89b25f02-e31c-5aee-b280-f304d07a60b6"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "0b24dd58-9af3-5dd5-8bba-2c6451fa7c10",
+            "name": "Painted Brass"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 10,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "3c6e3259-22dd-596f-910c-5482406cc685",
+      "name": "500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "3c6e3259-22dd-596f-910c-5482406cc685"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "2acb1cfc-380a-5bb2-906c-1e90f0927e2d",
+            "name": "CerMark-Coated Stainless Steel"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 50,
+          "power": 100,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "88710d0b-1dd2-5495-a5ed-e7012df27f35",
+      "name": "200 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "88710d0b-1dd2-5495-a5ed-e7012df27f35"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "9f584532-ace4-5bc2-bab5-f33f1bc923a7",
+            "name": "Fabric"
+          },
+          "material": {
+            "id": "dc27d23e-78a5-5ead-82fe-037db73bbe64",
+            "name": "Fleece"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 10,
+          "resolution": 200,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "jarvis",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "870fac9b-e265-5e3d-92a4-a2db47d30f51",
+      "name": "Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "870fac9b-e265-5e3d-92a4-a2db47d30f51"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "9f584532-ace4-5bc2-bab5-f33f1bc923a7",
+            "name": "Fabric"
+          },
+          "material": {
+            "id": "35f672a3-92d2-50e7-a533-a5e8c5e3e890",
+            "name": "Twill"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 90,
+          "power": 50,
+          "cycles": 1,
+          "frequency": 25,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "92b38d71-d695-571c-b721-047ea79bfb42",
+      "name": "500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "92b38d71-d695-571c-b721-047ea79bfb42"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "b45f0e37-245a-521d-9add-0ce134ddd553",
+            "name": "Glass"
+          },
+          "material": {
+            "id": "9ba353db-d83e-5191-8bab-a1ffda4c4327",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 80,
+          "power": 100,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "jarvis",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "866b1925-59fb-5f37-a237-85ecf0a024f4",
+      "name": "Photo Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "866b1925-59fb-5f37-a237-85ecf0a024f4"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "c0abda98-3b9d-5904-881e-c5160367f221",
+            "name": "Leather"
+          },
+          "material": {
+            "id": "74b3c7ee-a6c5-56d5-8e1d-56042331e1e1",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 30,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "precision_sync": true,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "9d80a44b-ec65-5501-ab5c-bde837728625",
+      "name": "Clipart/Text Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "9d80a44b-ec65-5501-ab5c-bde837728625"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "c0abda98-3b9d-5904-881e-c5160367f221",
+            "name": "Leather"
+          },
+          "material": {
+            "id": "74b3c7ee-a6c5-56d5-8e1d-56042331e1e1",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 20,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "f08122d4-03e8-5d14-9f5b-1241c14d4c7c",
+      "name": "1/8\" (3mm) Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "f08122d4-03e8-5d14-9f5b-1241c14d4c7c"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "c0abda98-3b9d-5904-881e-c5160367f221",
+            "name": "Leather"
+          },
+          "material": {
+            "id": "74b3c7ee-a6c5-56d5-8e1d-56042331e1e1",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 20,
+          "power": 100,
+          "cycles": 1,
+          "thickness": "0.125in",
+          "frequency": 50,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "5dfa435c-c4fb-552a-a31a-951555e27260",
+      "name": "Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "5dfa435c-c4fb-552a-a31a-951555e27260"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "87bff80f-fedf-5d04-bb06-1737ca7b5c69",
+            "name": "Paper & Board"
+          },
+          "material": {
+            "id": "021c110b-59ca-5f37-a06d-2bd59cfde9af",
+            "name": "Mat Board"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 50,
+          "cycles": 1,
+          "frequency": 50,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "d006f1f7-4f8b-5874-a882-a223e8b76655",
+      "name": "Photo Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "d006f1f7-4f8b-5874-a882-a223e8b76655"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "59e76226-04d4-5afe-83a9-5ef2fceb30f8",
+            "name": "Stone"
+          },
+          "material": {
+            "id": "0d904267-e933-5766-bce1-a3bf24b1da8b",
+            "name": "Marble"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 40,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "precision_sync": true,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "01feb8f5-91aa-5c47-9702-1c51a4e8a426",
+      "name": "Text Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "01feb8f5-91aa-5c47-9702-1c51a4e8a426"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "59e76226-04d4-5afe-83a9-5ef2fceb30f8",
+            "name": "Stone"
+          },
+          "material": {
+            "id": "0d904267-e933-5766-bce1-a3bf24b1da8b",
+            "name": "Marble"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 30,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "20267955-a85b-5dbd-9575-10fb9f71f270",
+      "name": "Photo Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "20267955-a85b-5dbd-9575-10fb9f71f270"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "59fc81d6-1b5f-582f-a5ef-384dae9f0f6a",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 100,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "precision_sync": true,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "02a2ce42-d2d5-557c-bfe4-0e20efc877d7",
+      "name": "Clipart/Text 300 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "02a2ce42-d2d5-557c-bfe4-0e20efc877d7"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "59fc81d6-1b5f-582f-a5ef-384dae9f0f6a",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 80,
+          "power": 100,
+          "resolution": 300,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "3dccf3c7-1352-518a-98a0-201187e29854",
+      "name": "Clipart/Text 500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "3dccf3c7-1352-518a-98a0-201187e29854"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "59fc81d6-1b5f-582f-a5ef-384dae9f0f6a",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 100,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "59e2cfd5-f0ee-5cea-a091-3bb3dfa8426c",
+      "name": "Deep Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "59e2cfd5-f0ee-5cea-a091-3bb3dfa8426c"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "59fc81d6-1b5f-582f-a5ef-384dae9f0f6a",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 100,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "8ee7e018-1dfe-5872-a740-df9499907890",
+      "name": "1/8\" (3mm) Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "8ee7e018-1dfe-5872-a740-df9499907890"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "59fc81d6-1b5f-582f-a5ef-384dae9f0f6a",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 30,
+          "power": 100,
+          "cycles": 1,
+          "thickness": "0.125in",
+          "frequency": 10,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "c2f42307-1710-5e97-a9a2-89e340386ed8",
+      "name": "1/4\" (6mm) Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "c2f42307-1710-5e97-a9a2-89e340386ed8"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "59fc81d6-1b5f-582f-a5ef-384dae9f0f6a",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 10,
+          "power": 100,
+          "cycles": 1,
+          "thickness": "0.25in",
+          "frequency": 10,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "894c1735-c941-5cef-9e7c-da86762cf4c0",
+      "name": "3/8\" (9.5mm) Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "894c1735-c941-5cef-9e7c-da86762cf4c0"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "59fc81d6-1b5f-582f-a5ef-384dae9f0f6a",
+            "name": "Generic"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 5,
+          "power": 100,
+          "cycles": 1,
+          "thickness": "0.375in",
+          "frequency": 10,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "258fe76a-22f5-52cf-8b1d-cd7af4d4cf79",
+      "name": "Cut",
+      "source": {
+        "_of": "epilog",
+        "id": "258fe76a-22f5-52cf-8b1d-cd7af4d4cf79"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "709cf23b-b730-59b8-a6af-3fda8716f7f5",
+            "name": "Veneer"
+          }
+        },
+        "process": {
+          "_of": "vector_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 100,
+          "cycles": 1,
+          "frequency": 10,
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "bf46117c-8f8c-594d-a924-576b2e0a1c09",
+      "name": "500 DPI Engrave",
+      "source": {
+        "_of": "epilog",
+        "id": "bf46117c-8f8c-594d-a924-576b2e0a1c09"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "d0145c41-7afc-57fe-84e2-6fa79146031c",
+            "name": "Wood"
+          },
+          "material": {
+            "id": "0ff965e3-24a5-57df-977d-86242cd49e5f",
+            "name": "Cork"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "co2",
+          "speed": 100,
+          "power": 15,
+          "resolution": 500,
+          "cycles": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "offset": "0in",
+          "disabled_fields": []
+        }
+      }
+    }
+  ]
+}

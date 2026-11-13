@@ -1,0 +1,401 @@
+{
+  "revision": 1,
+  "materials": [
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "cf7f1440-51a2-567f-9a90-e1f94b738f96",
+      "name": "Mark/Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "cf7f1440-51a2-567f-9a90-e1f94b738f96"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "4c67f229-b7d1-54f6-bfda-85042ea6cce3",
+            "name": "Anodized Aluminum"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 55,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0.06in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "2c89ccaf-4620-5df8-949d-ae09d36f01a7",
+      "name": "Mark/Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "2c89ccaf-4620-5df8-949d-ae09d36f01a7"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "cb75ba4c-2cc7-5888-84df-3ec82df62c45",
+            "name": "Aluminum"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 45,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "0bda4f15-bbb2-5789-aa36-374251aba44c",
+      "name": "Mark/Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "0bda4f15-bbb2-5789-aa36-374251aba44c"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "54a9cd4d-4df2-5e40-b419-77c2de72df89",
+            "name": "Brass"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 45,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "c5ba6dc3-48c2-5066-9556-f47774bec2b9",
+      "name": "Anneal",
+      "source": {
+        "_of": "epilog",
+        "id": "c5ba6dc3-48c2-5066-9556-f47774bec2b9"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "02d00fa3-ae08-5890-858c-2caf3fc7be14",
+            "name": "Stainless Steel"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 12,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0.1in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "c41186cd-de8d-5b64-b7f7-71e79da30a06",
+      "name": "Mark/Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "c41186cd-de8d-5b64-b7f7-71e79da30a06"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "02d00fa3-ae08-5890-858c-2caf3fc7be14",
+            "name": "Stainless Steel"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 45,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "e86ed8bb-c0b4-580e-b22e-023da85c91dc",
+      "name": "Polish",
+      "source": {
+        "_of": "epilog",
+        "id": "e86ed8bb-c0b4-580e-b22e-023da85c91dc"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "02d00fa3-ae08-5890-858c-2caf3fc7be14",
+            "name": "Stainless Steel"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 75,
+          "power": 35,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0in",
+          "frequency": 55,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "d072d8ff-29dc-511a-834d-6977901ac977",
+      "name": "Anneal",
+      "source": {
+        "_of": "epilog",
+        "id": "d072d8ff-29dc-511a-834d-6977901ac977"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "2d579109-4398-52b1-9532-b65d3a059805",
+            "name": "Titanium"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 15,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0.1in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "f2fc2762-3f81-5ce6-9c95-5df846f22bc4",
+      "name": "Mark/Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "f2fc2762-3f81-5ce6-9c95-5df846f22bc4"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "2d579109-4398-52b1-9532-b65d3a059805",
+            "name": "Titanium"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 45,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "7fcbe8cb-eaf1-5364-82d2-0f914cfe6bc6",
+      "name": "Mark/Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "7fcbe8cb-eaf1-5364-82d2-0f914cfe6bc6"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "664515a9-87e5-5c41-9a7f-5fc1469cf0fc",
+            "name": "Plated"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 35,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0.1in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "3687ce0f-8e51-5caf-bc4a-209ef0a19241",
+      "name": "Mark/Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "3687ce0f-8e51-5caf-bc4a-209ef0a19241"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "3ec5fcb7-48a6-5b48-b3d3-16d5c03f344b",
+            "name": "Metal"
+          },
+          "material": {
+            "id": "dde3e12a-4e6e-52f2-ae93-0a930e45d652",
+            "name": "Powder Coated"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 55,
+          "power": 100,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0.06in",
+          "frequency": 1,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    },
+    {
+      "_of": "material",
+      "save_version": "1.0.0",
+      "id": "841aae3c-0137-53ac-bd68-dc815f584dd5",
+      "name": "Mark/Etch",
+      "source": {
+        "_of": "epilog",
+        "id": "841aae3c-0137-53ac-bd68-dc815f584dd5"
+      },
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "settings": {
+        "organization": {
+          "category": {
+            "id": "8d1906e1-90d8-5faa-bbb7-c76e2ad2251a",
+            "name": "Plastic"
+          },
+          "material": {
+            "id": "b6e7df2f-e5aa-5932-8ed4-51085f9fe2ff",
+            "name": "Two-Layer Engravable"
+          }
+        },
+        "process": {
+          "_of": "engrave_process",
+          "laser_type": "fiber",
+          "speed": 65,
+          "power": 65,
+          "resolution": 600,
+          "cycles": 1,
+          "offset": "0in",
+          "frequency": 50,
+          "effect_mode": 0,
+          "dithering": "standard",
+          "disabled_fields": []
+        }
+      }
+    }
+  ]
+}
